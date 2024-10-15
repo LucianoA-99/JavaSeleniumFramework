@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="TestAbstractComponents.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Register">
+		<classes>
+			<class name="Tests.AddProductTest" />
+			<class name="Tests.AddRecomendedTest" />
+			<class name="Tests.AddReviewTest" />
+			<class name="Tests.ContactFormTest" />
+			<class name="Tests.DownloadInvoiceTest" />
+			<class name="Tests.IncorrectLoginTest" />
+			<class name="Tests.LoginBeforeChekoutTest" />
+			<class name="Tests.LoginUserCorrectlyTest" />
+			<class name="Tests.LogOutTest" />
+			<class name="Tests.RegisterAlreadyExistTest" />
+			<class name="Tests.RegisterBeforeCheckoutTest" />
+			<class name="Tests.RegisterCheckoutTest" />
+			<class name="Tests.RegisterUserTest" />
+			<class name="Tests.RemoveProdCartTest" />
+			<class name="Tests.SearchProductTest" />
+			<class name="Tests.SearchVerifyCartTest" />
+			<class name="Tests.VerifyAddressTest" />
+			<class name="Tests.VerifyProductQuantityTest" />
+			<class name="Tests.VerifyProductsTest" />
+			<class name="Tests.VerifyScrollAndArrowTest" />
+			<class name="Tests.VerifyScrollTest" />
+			<class name="Tests.VerifySubscription2Test" />
+			<class name="Tests.VerifySubscriptionTest" />
+			<class name="Tests.VerifyTestCasesTest" />
+			<class name="Tests.ViewBrandTest" />
+			<class name="Tests.ViewCategoryTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

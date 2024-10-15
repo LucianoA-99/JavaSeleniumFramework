@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="21" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-12T16:41:13 ART" name="Suite" finished-at="2024-10-12T16:53:15 ART" duration-ms="721828">
+    <groups>
+      <group name="NoPreviousAccountCreationRequired">
+        <method signature="AddProductTest.AddProducts()[pri:0, instance:Tests.AddProductTest@518caac3]" name="AddProducts" class="Tests.AddProductTest"/>
+        <method signature="AddRecomendedTest.AddRecomended()[pri:0, instance:Tests.AddRecomendedTest@3b74ac8]" name="AddRecomended" class="Tests.AddRecomendedTest"/>
+        <method signature="AddReviewTest.AddReview()[pri:0, instance:Tests.AddReviewTest@27adc16e]" name="AddReview" class="Tests.AddReviewTest"/>
+        <method signature="ContactFormTest.contactForm()[pri:0, instance:Tests.ContactFormTest@b83a9be]" name="contactForm" class="Tests.ContactFormTest"/>
+        <method signature="DownloadInvoiceTest.DownloadInvoice(java.util.HashMap)[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" name="DownloadInvoice" class="Tests.DownloadInvoiceTest"/>
+        <method signature="IncorrectLoginTest.IncorrectLogin()[pri:0, instance:Tests.IncorrectLoginTest@1fd14d74]" name="IncorrectLogin" class="Tests.IncorrectLoginTest"/>
+        <method signature="RegisterBeforeCheckoutTest.RegisterBeforeCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" name="RegisterBeforeCheckout" class="Tests.RegisterBeforeCheckoutTest"/>
+        <method signature="RegisterCheckoutTest.RegisterCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" name="RegisterCheckout" class="Tests.RegisterCheckoutTest"/>
+        <method signature="RegisterUserTest.registerUserTest(java.util.HashMap)[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" name="registerUserTest" class="Tests.RegisterUserTest"/>
+        <method signature="RemoveProdCartTest.AddProducts()[pri:0, instance:Tests.RemoveProdCartTest@30c8681]" name="AddProducts" class="Tests.RemoveProdCartTest"/>
+        <method signature="SearchVerifyCartTest.SearchVerifyCart()[pri:0, instance:Tests.SearchVerifyCartTest@6d026701]" name="SearchVerifyCart" class="Tests.SearchVerifyCartTest"/>
+        <method signature="VerifyAddressTest.VerifyAddress(java.util.HashMap)[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" name="VerifyAddress" class="Tests.VerifyAddressTest"/>
+        <method signature="VerifyProductQuantityTest.VerifyProducts()[pri:0, instance:Tests.VerifyProductQuantityTest@1f75a668]" name="VerifyProducts" class="Tests.VerifyProductQuantityTest"/>
+        <method signature="VerifyProductsTest.VerifyProducts()[pri:0, instance:Tests.VerifyProductsTest@35399441]" name="VerifyProducts" class="Tests.VerifyProductsTest"/>
+        <method signature="VerifyScrollAndArrowTest.VerifySubscription()[pri:0, instance:Tests.VerifyScrollAndArrowTest@4b7dc788]" name="VerifySubscription" class="Tests.VerifyScrollAndArrowTest"/>
+        <method signature="VerifyScrollTest.VerifySubscription()[pri:0, instance:Tests.VerifyScrollTest@6304101a]" name="VerifySubscription" class="Tests.VerifyScrollTest"/>
+        <method signature="VerifySubscription2Test.VerifySubscription()[pri:0, instance:Tests.VerifySubscription2Test@5170bcf4]" name="VerifySubscription" class="Tests.VerifySubscription2Test"/>
+        <method signature="VerifySubscriptionTest.VerifySubscription()[pri:0, instance:Tests.VerifySubscriptionTest@2812b107]" name="VerifySubscription" class="Tests.VerifySubscriptionTest"/>
+        <method signature="VerifyTestCasesTest.VerifyTests()[pri:0, instance:Tests.VerifyTestCasesTest@df6620a]" name="VerifyTests" class="Tests.VerifyTestCasesTest"/>
+        <method signature="ViewBrandTest.AddProducts()[pri:0, instance:Tests.ViewBrandTest@4e31276e]" name="AddProducts" class="Tests.ViewBrandTest"/>
+        <method signature="ViewCategoryTest.ViewCategory()[pri:0, instance:Tests.ViewCategoryTest@1a72a540]" name="ViewCategory" class="Tests.ViewCategoryTest"/>
+      </group> <!-- NoPreviousAccountCreationRequired -->
+      <group name="PreviousAccountRequired">
+        <method signature="LogOutTest.LogOut()[pri:0, instance:Tests.LogOutTest@2b175c00]" name="LogOut" class="Tests.LogOutTest"/>
+        <method signature="LoginBeforeChekoutTest.LoginBeforeCheckout()[pri:0, instance:Tests.LoginBeforeChekoutTest@563e4951]" name="LoginBeforeCheckout" class="Tests.LoginBeforeChekoutTest"/>
+        <method signature="LoginUserCorrectlyTest.LoginUserCorrectly()[pri:0, instance:Tests.LoginUserCorrectlyTest@4066c471]" name="LoginUserCorrectly" class="Tests.LoginUserCorrectlyTest"/>
+        <method signature="RegisterAlreadyExistTest.registerAlreadyExist()[pri:0, instance:Tests.RegisterAlreadyExistTest@3eb81efb]" name="registerAlreadyExist" class="Tests.RegisterAlreadyExistTest"/>
+        <method signature="SearchProductTest.SearchProduct()[pri:0, instance:Tests.SearchProductTest@5cdec700]" name="SearchProduct" class="Tests.SearchProductTest"/>
+      </group> <!-- PreviousAccountRequired -->
+    </groups>
+    <test started-at="2024-10-12T16:41:13 ART" name="Register" finished-at="2024-10-12T16:53:15 ART" duration-ms="721828">
+      <class name="Tests.AddProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.AddProductTest@518caac3]" started-at="2024-10-12T16:41:13 ART" name="launchApplication" finished-at="2024-10-12T16:41:21 ART" duration-ms="7210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddProducts()[pri:0, instance:Tests.AddProductTest@518caac3]" started-at="2024-10-12T16:41:21 ART" name="AddProducts" finished-at="2024-10-12T16:41:27 ART" duration-ms="5971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddProductTest@518caac3]" started-at="2024-10-12T16:41:27 ART" name="tearDown" finished-at="2024-10-12T16:41:27 ART" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AddProductTest -->
+      <class name="Tests.VerifyProductsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyProductsTest@35399441]" started-at="2024-10-12T16:52:21 ART" name="launchApplication" finished-at="2024-10-12T16:52:25 ART" duration-ms="3900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyProducts()[pri:0, instance:Tests.VerifyProductsTest@35399441]" started-at="2024-10-12T16:52:25 ART" name="VerifyProducts" finished-at="2024-10-12T16:52:30 ART" duration-ms="4351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyProductsTest@35399441]" started-at="2024-10-12T16:52:30 ART" name="tearDown" finished-at="2024-10-12T16:52:30 ART" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyProductsTest -->
+      <class name="Tests.AddRecomendedTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.AddRecomendedTest@3b74ac8]" started-at="2024-10-12T16:41:27 ART" name="launchApplication" finished-at="2024-10-12T16:41:31 ART" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddRecomended()[pri:0, instance:Tests.AddRecomendedTest@3b74ac8]" started-at="2024-10-12T16:41:31 ART" name="AddRecomended" finished-at="2024-10-12T16:41:34 ART" duration-ms="2335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRecomended -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddRecomendedTest@3b74ac8]" started-at="2024-10-12T16:41:34 ART" name="tearDown" finished-at="2024-10-12T16:41:34 ART" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AddRecomendedTest -->
+      <class name="Tests.RemoveProdCartTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RemoveProdCartTest@30c8681]" started-at="2024-10-12T16:50:52 ART" name="launchApplication" finished-at="2024-10-12T16:50:57 ART" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddProducts()[pri:0, instance:Tests.RemoveProdCartTest@30c8681]" started-at="2024-10-12T16:50:57 ART" name="AddProducts" finished-at="2024-10-12T16:51:01 ART" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RemoveProdCartTest@30c8681]" started-at="2024-10-12T16:51:01 ART" name="tearDown" finished-at="2024-10-12T16:51:01 ART" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RemoveProdCartTest -->
+      <class name="Tests.VerifyTestCasesTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyTestCasesTest@df6620a]" started-at="2024-10-12T16:52:50 ART" name="launchApplication" finished-at="2024-10-12T16:52:54 ART" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyTests()[pri:0, instance:Tests.VerifyTestCasesTest@df6620a]" started-at="2024-10-12T16:52:54 ART" name="VerifyTests" finished-at="2024-10-12T16:52:55 ART" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyTestCasesTest@df6620a]" started-at="2024-10-12T16:52:55 ART" name="tearDown" finished-at="2024-10-12T16:52:56 ART" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyTestCasesTest -->
+      <class name="Tests.ViewBrandTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.ViewBrandTest@4e31276e]" started-at="2024-10-12T16:52:56 ART" name="launchApplication" finished-at="2024-10-12T16:53:00 ART" duration-ms="4522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddProducts()[pri:0, instance:Tests.ViewBrandTest@4e31276e]" started-at="2024-10-12T16:53:00 ART" name="AddProducts" finished-at="2024-10-12T16:53:05 ART" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ViewBrandTest@4e31276e]" started-at="2024-10-12T16:53:05 ART" name="tearDown" finished-at="2024-10-12T16:53:06 ART" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.ViewBrandTest -->
+      <class name="Tests.LoginBeforeChekoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.LoginBeforeChekoutTest@563e4951]" started-at="2024-10-12T16:42:54 ART" name="launchApplication" finished-at="2024-10-12T16:42:57 ART" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginBeforeCheckout()[pri:0, instance:Tests.LoginBeforeChekoutTest@563e4951]" started-at="2024-10-12T16:42:57 ART" name="LoginBeforeCheckout" finished-at="2024-10-12T16:43:10 ART" duration-ms="12787" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed4531cc367b2f7236e95f1a586e98d, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed4531cc367b2f7236e95f1a586e98d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed4531cc367b2f7236e95f1a586e98d, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed4531cc367b2f7236e95f1a586e98d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at TestAbstractComponents.AbstractComponents.getElementTxt(AbstractComponents.java:33)
+at pageObjects.HomePage.Confirmation(HomePage.java:114)
+at Tests.LoginBeforeChekoutTest.LoginBeforeCheckout(LoginBeforeChekoutTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginBeforeChekoutTest@563e4951]" started-at="2024-10-12T16:43:10 ART" name="tearDown" finished-at="2024-10-12T16:43:10 ART" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginBeforeChekoutTest -->
+      <class name="Tests.VerifySubscriptionTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifySubscriptionTest@2812b107]" started-at="2024-10-12T16:52:45 ART" name="launchApplication" finished-at="2024-10-12T16:52:49 ART" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifySubscription()[pri:0, instance:Tests.VerifySubscriptionTest@2812b107]" started-at="2024-10-12T16:52:49 ART" name="VerifySubscription" finished-at="2024-10-12T16:52:50 ART" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifySubscriptionTest@2812b107]" started-at="2024-10-12T16:52:50 ART" name="tearDown" finished-at="2024-10-12T16:52:50 ART" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifySubscriptionTest -->
+      <class name="Tests.VerifySubscription2Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifySubscription2Test@5170bcf4]" started-at="2024-10-12T16:52:39 ART" name="launchApplication" finished-at="2024-10-12T16:52:43 ART" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifySubscription()[pri:0, instance:Tests.VerifySubscription2Test@5170bcf4]" started-at="2024-10-12T16:52:43 ART" name="VerifySubscription" finished-at="2024-10-12T16:52:45 ART" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifySubscription2Test@5170bcf4]" started-at="2024-10-12T16:52:45 ART" name="tearDown" finished-at="2024-10-12T16:52:45 ART" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifySubscription2Test -->
+      <class name="Tests.RegisterAlreadyExistTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterAlreadyExistTest@3eb81efb]" started-at="2024-10-12T16:43:46 ART" name="launchApplication" finished-at="2024-10-12T16:43:50 ART" duration-ms="3951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerAlreadyExist()[pri:0, instance:Tests.RegisterAlreadyExistTest@3eb81efb]" started-at="2024-10-12T16:43:50 ART" name="registerAlreadyExist" finished-at="2024-10-12T16:44:03 ART" duration-ms="13134" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Email Address already exist!']"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dda6d65631955c2f6f9e517c05e2e5ba, findElement {using=xpath, value=//p[normalize-space()='Email Address already exist!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52094/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dda6d65631955c2f6f9e517c05e2e5ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Email Address already exist!']"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dda6d65631955c2f6f9e517c05e2e5ba, findElement {using=xpath, value=//p[normalize-space()='Email Address already exist!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52094/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dda6d65631955c2f6f9e517c05e2e5ba
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at TestAbstractComponents.AbstractComponents.getElementTxt(AbstractComponents.java:33)
+at pageObjects.LoginPage.verifyAccountExist(LoginPage.java:62)
+at Tests.RegisterAlreadyExistTest.registerAlreadyExist(RegisterAlreadyExistTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAlreadyExist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterAlreadyExistTest@3eb81efb]" started-at="2024-10-12T16:44:03 ART" name="tearDown" finished-at="2024-10-12T16:44:03 ART" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterAlreadyExistTest -->
+      <class name="Tests.ContactFormTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.ContactFormTest@b83a9be]" started-at="2024-10-12T16:41:42 ART" name="launchApplication" finished-at="2024-10-12T16:41:47 ART" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="contactForm()[pri:0, instance:Tests.ContactFormTest@b83a9be]" started-at="2024-10-12T16:41:47 ART" name="contactForm" finished-at="2024-10-12T16:41:51 ART" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ContactFormTest@b83a9be]" started-at="2024-10-12T16:41:51 ART" name="tearDown" finished-at="2024-10-12T16:41:51 ART" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.ContactFormTest -->
+      <class name="Tests.SearchVerifyCartTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.SearchVerifyCartTest@6d026701]" started-at="2024-10-12T16:51:23 ART" name="launchApplication" finished-at="2024-10-12T16:51:26 ART" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchVerifyCart()[pri:0, instance:Tests.SearchVerifyCartTest@6d026701]" started-at="2024-10-12T16:51:26 ART" name="SearchVerifyCart" finished-at="2024-10-12T16:51:30 ART" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchVerifyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.SearchVerifyCartTest@6d026701]" started-at="2024-10-12T16:51:30 ART" name="tearDown" finished-at="2024-10-12T16:51:30 ART" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.SearchVerifyCartTest -->
+      <class name="Tests.VerifyScrollAndArrowTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyScrollAndArrowTest@4b7dc788]" started-at="2024-10-12T16:52:30 ART" name="launchApplication" finished-at="2024-10-12T16:52:34 ART" duration-ms="4052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifySubscription()[pri:0, instance:Tests.VerifyScrollAndArrowTest@4b7dc788]" started-at="2024-10-12T16:52:34 ART" name="VerifySubscription" finished-at="2024-10-12T16:52:35 ART" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyScrollAndArrowTest@4b7dc788]" started-at="2024-10-12T16:52:35 ART" name="tearDown" finished-at="2024-10-12T16:52:35 ART" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyScrollAndArrowTest -->
+      <class name="Tests.RegisterUserTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:19 ART" name="launchApplication" finished-at="2024-10-12T16:50:23 ART" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerUserTest(java.util.HashMap)[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:23 ART" name="registerUserTest" data-provider="getData" finished-at="2024-10-12T16:50:35 ART" duration-ms="11915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=New Zealand, firstname=Luciano, address=Avenida Siempre Viva, year=1999, address2=123, city=Springfield, mobile=482153957, lastname=Alonso, zipcode=30100, password=qatest123456789, month=7, name=Fabian, company=LuchoA, state=Springfield, day=9, email=qatest456@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:35 ART" name="tearDown" finished-at="2024-10-12T16:50:35 ART" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:35 ART" name="launchApplication" finished-at="2024-10-12T16:50:39 ART" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerUserTest(java.util.HashMap)[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:39 ART" name="registerUserTest" data-provider="getData" finished-at="2024-10-12T16:50:52 ART" duration-ms="13000" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, firstname=Luciano, address=BuddyStreet, year=1999, address2=123, city=Houston, mobile=486215379, lastname=Alonso, zipcode=12345, password=qatest123456789, month=9, name=Luciano, company=Testing, state=Texas, day=4, email=qatest123@adinet.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"h2.title.text-center"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bde270c8ead8b6443ea2517ddc3f6149, findElement {using=css selector, value=h2.title.text-center}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52478/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bde270c8ead8b6443ea2517ddc3f6149]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h2.title.text-center"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bde270c8ead8b6443ea2517ddc3f6149, findElement {using=css selector, value=h2.title.text-center}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52478/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bde270c8ead8b6443ea2517ddc3f6149
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at TestAbstractComponents.AbstractComponents.getElementTxt(AbstractComponents.java:33)
+at pageObjects.EnterUserInfoPage.enterAccountInfoTxt(EnterUserInfoPage.java:78)
+at Tests.RegisterUserTest.registerUserTest(RegisterUserTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterUserTest@7d3d101b]" started-at="2024-10-12T16:50:52 ART" name="tearDown" finished-at="2024-10-12T16:50:52 ART" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterUserTest -->
+      <class name="Tests.RegisterCheckoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:44:50 ART" name="launchApplication" finished-at="2024-10-12T16:44:54 ART" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RegisterCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:44:54 ART" name="RegisterCheckout" data-provider="getData" finished-at="2024-10-12T16:48:16 ART" duration-ms="201896" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=New Zealand, firstname=Luciano, address=Avenida Siempre Viva, year=1999, address2=123, city=Springfield, mobile=482153957, lastname=Alonso, zipcode=30100, password=qatest123456789, month=7, name=Fabian, company=LuchoA, state=Springfield, day=9, email=qatest456@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deb238961588b67917cddac613f6a171, clickElement {id=f.AB1E007852E80604E62738D4E54E8CD6.d.508815F5CF2FA757BC003181ADF55E76.e.191}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52175/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (deb238961588b67917cddac613f6a171)] -> css selector: .btn.btn-default.check_out]
+Session ID: deb238961588b67917cddac613f6a171]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deb238961588b67917cddac613f6a171, clickElement {id=f.AB1E007852E80604E62738D4E54E8CD6.d.508815F5CF2FA757BC003181ADF55E76.e.191}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52175/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (deb238961588b67917cddac613f6a171)] -> css selector: .btn.btn-default.check_out]
+Session ID: deb238961588b67917cddac613f6a171
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pageObjects.CartPage.proceedCheckout(CartPage.java:97)
+at Tests.RegisterCheckoutTest.RegisterCheckout(RegisterCheckoutTest.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:49:56 ART" name="tearDown" finished-at="2024-10-12T16:49:56 ART" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:49:56 ART" name="launchApplication" finished-at="2024-10-12T16:50:00 ART" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RegisterCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:50:00 ART" name="RegisterCheckout" data-provider="getData" finished-at="2024-10-12T16:50:19 ART" duration-ms="18297" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, firstname=Luciano, address=BuddyStreet, year=1999, address2=123, city=Houston, mobile=486215379, lastname=Alonso, zipcode=12345, password=qatest123456789, month=9, name=Luciano, company=Testing, state=Texas, day=4, email=qatest123@adinet.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5903647c6fe4bc131dbe44a4c74f9b1c, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52422/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5903647c6fe4bc131dbe44a4c74f9b1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5903647c6fe4bc131dbe44a4c74f9b1c, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52422/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5903647c6fe4bc131dbe44a4c74f9b1c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+at pageObjects.EnterUserInfoPage.fillDetails(EnterUserInfoPage.java:82)
+at Tests.RegisterCheckoutTest.RegisterCheckout(RegisterCheckoutTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterCheckoutTest@6cdba6dc]" started-at="2024-10-12T16:50:19 ART" name="tearDown" finished-at="2024-10-12T16:50:19 ART" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterCheckoutTest -->
+      <class name="Tests.ViewCategoryTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.ViewCategoryTest@1a72a540]" started-at="2024-10-12T16:53:06 ART" name="launchApplication" finished-at="2024-10-12T16:53:10 ART" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ViewCategory()[pri:0, instance:Tests.ViewCategoryTest@1a72a540]" started-at="2024-10-12T16:53:10 ART" name="ViewCategory" finished-at="2024-10-12T16:53:15 ART" duration-ms="4826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ViewCategoryTest@1a72a540]" started-at="2024-10-12T16:53:15 ART" name="tearDown" finished-at="2024-10-12T16:53:15 ART" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.ViewCategoryTest -->
+      <class name="Tests.AddReviewTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.AddReviewTest@27adc16e]" started-at="2024-10-12T16:41:34 ART" name="launchApplication" finished-at="2024-10-12T16:41:38 ART" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddReview()[pri:0, instance:Tests.AddReviewTest@27adc16e]" started-at="2024-10-12T16:41:38 ART" name="AddReview" finished-at="2024-10-12T16:41:42 ART" duration-ms="4320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AddReviewTest@27adc16e]" started-at="2024-10-12T16:41:42 ART" name="tearDown" finished-at="2024-10-12T16:41:42 ART" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AddReviewTest -->
+      <class name="Tests.LoginUserCorrectlyTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.LoginUserCorrectlyTest@4066c471]" started-at="2024-10-12T16:43:10 ART" name="launchApplication" finished-at="2024-10-12T16:43:15 ART" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginUserCorrectly()[pri:0, instance:Tests.LoginUserCorrectlyTest@4066c471]" started-at="2024-10-12T16:43:15 ART" name="LoginUserCorrectly" finished-at="2024-10-12T16:43:28 ART" duration-ms="13689" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88bc88638c0f1f360a06258eeb8b1e54, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52036/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88bc88638c0f1f360a06258eeb8b1e54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88bc88638c0f1f360a06258eeb8b1e54, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52036/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88bc88638c0f1f360a06258eeb8b1e54
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at TestAbstractComponents.AbstractComponents.getElementTxt(AbstractComponents.java:33)
+at pageObjects.HomePage.Confirmation(HomePage.java:114)
+at Tests.LoginUserCorrectlyTest.LoginUserCorrectly(LoginUserCorrectlyTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserCorrectly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginUserCorrectlyTest@4066c471]" started-at="2024-10-12T16:43:29 ART" name="tearDown" finished-at="2024-10-12T16:43:29 ART" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginUserCorrectlyTest -->
+      <class name="Tests.LogOutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.LogOutTest@2b175c00]" started-at="2024-10-12T16:43:29 ART" name="launchApplication" finished-at="2024-10-12T16:43:32 ART" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LogOut()[pri:0, instance:Tests.LogOutTest@2b175c00]" started-at="2024-10-12T16:43:32 ART" name="LogOut" finished-at="2024-10-12T16:43:46 ART" duration-ms="13113" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7c90390ef07697f1e09b4e1ccb3b2f4, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52070/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7c90390ef07697f1e09b4e1ccb3b2f4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div/ul/li[10]/a"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7c90390ef07697f1e09b4e1ccb3b2f4, findElement {using=xpath, value=//div/ul/li[10]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52070/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7c90390ef07697f1e09b4e1ccb3b2f4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at TestAbstractComponents.AbstractComponents.getElementTxt(AbstractComponents.java:33)
+at pageObjects.HomePage.Confirmation(HomePage.java:114)
+at Tests.LogOutTest.LogOut(LogOutTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LogOutTest@2b175c00]" started-at="2024-10-12T16:43:46 ART" name="tearDown" finished-at="2024-10-12T16:43:46 ART" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LogOutTest -->
+      <class name="Tests.VerifyScrollTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyScrollTest@6304101a]" started-at="2024-10-12T16:52:35 ART" name="launchApplication" finished-at="2024-10-12T16:52:39 ART" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifySubscription()[pri:0, instance:Tests.VerifyScrollTest@6304101a]" started-at="2024-10-12T16:52:39 ART" name="VerifySubscription" finished-at="2024-10-12T16:52:39 ART" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyScrollTest@6304101a]" started-at="2024-10-12T16:52:39 ART" name="tearDown" finished-at="2024-10-12T16:52:39 ART" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyScrollTest -->
+      <class name="Tests.IncorrectLoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.IncorrectLoginTest@1fd14d74]" started-at="2024-10-12T16:42:46 ART" name="launchApplication" finished-at="2024-10-12T16:42:49 ART" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="IncorrectLogin()[pri:0, instance:Tests.IncorrectLoginTest@1fd14d74]" started-at="2024-10-12T16:42:49 ART" name="IncorrectLogin" finished-at="2024-10-12T16:42:53 ART" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.IncorrectLoginTest@1fd14d74]" started-at="2024-10-12T16:42:53 ART" name="tearDown" finished-at="2024-10-12T16:42:54 ART" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.IncorrectLoginTest -->
+      <class name="Tests.VerifyProductQuantityTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyProductQuantityTest@1f75a668]" started-at="2024-10-12T16:52:11 ART" name="launchApplication" finished-at="2024-10-12T16:52:15 ART" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyProducts()[pri:0, instance:Tests.VerifyProductQuantityTest@1f75a668]" started-at="2024-10-12T16:52:15 ART" name="VerifyProducts" finished-at="2024-10-12T16:52:21 ART" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyProductQuantityTest@1f75a668]" started-at="2024-10-12T16:52:21 ART" name="tearDown" finished-at="2024-10-12T16:52:21 ART" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyProductQuantityTest -->
+      <class name="Tests.VerifyAddressTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:51:30 ART" name="launchApplication" finished-at="2024-10-12T16:51:35 ART" duration-ms="5355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyAddress(java.util.HashMap)[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:51:35 ART" name="VerifyAddress" data-provider="getData" finished-at="2024-10-12T16:51:52 ART" duration-ms="16995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=New Zealand, firstname=Luciano, address=Avenida Siempre Viva, year=1999, address2=123, city=Springfield, mobile=482153957, lastname=Alonso, zipcode=30100, password=qatest123456789, month=7, name=Fabian, company=LuchoA, state=Springfield, day=9, email=qatest456@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:51:52 ART" name="tearDown" finished-at="2024-10-12T16:51:53 ART" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:51:53 ART" name="launchApplication" finished-at="2024-10-12T16:51:58 ART" duration-ms="4799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyAddress(java.util.HashMap)[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:51:58 ART" name="VerifyAddress" data-provider="getData" finished-at="2024-10-12T16:52:11 ART" duration-ms="13549" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, firstname=Luciano, address=BuddyStreet, year=1999, address2=123, city=Houston, mobile=486215379, lastname=Alonso, zipcode=12345, password=qatest123456789, month=9, name=Luciano, company=Testing, state=Texas, day=4, email=qatest123@adinet.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f39f74b1760cb92c03cffc175106540, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52631/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f39f74b1760cb92c03cffc175106540]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f39f74b1760cb92c03cffc175106540, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52631/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f39f74b1760cb92c03cffc175106540
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+at pageObjects.EnterUserInfoPage.fillDetails(EnterUserInfoPage.java:82)
+at Tests.VerifyAddressTest.VerifyAddress(VerifyAddressTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.VerifyAddressTest@78aa1f72]" started-at="2024-10-12T16:52:11 ART" name="tearDown" finished-at="2024-10-12T16:52:11 ART" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.VerifyAddressTest -->
+      <class name="Tests.DownloadInvoiceTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:41:52 ART" name="launchApplication" finished-at="2024-10-12T16:41:56 ART" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DownloadInvoice(java.util.HashMap)[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:41:56 ART" name="DownloadInvoice" data-provider="getData" finished-at="2024-10-12T16:42:23 ART" duration-ms="27189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=New Zealand, firstname=Luciano, address=Avenida Siempre Viva, year=1999, address2=123, city=Springfield, mobile=482153957, lastname=Alonso, zipcode=30100, password=qatest123456789, month=7, name=Fabian, company=LuchoA, state=Springfield, day=9, email=qatest456@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadInvoice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:42:23 ART" name="tearDown" finished-at="2024-10-12T16:42:23 ART" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:42:23 ART" name="launchApplication" finished-at="2024-10-12T16:42:28 ART" duration-ms="4686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DownloadInvoice(java.util.HashMap)[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:42:28 ART" name="DownloadInvoice" data-provider="getData" finished-at="2024-10-12T16:42:46 ART" duration-ms="17887" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, firstname=Luciano, address=BuddyStreet, year=1999, address2=123, city=Houston, mobile=486215379, lastname=Alonso, zipcode=12345, password=qatest123456789, month=9, name=Luciano, company=Testing, state=Texas, day=4, email=qatest123@adinet.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ac24d28dd0aadfd8f87f2b740b20376, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51950/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ac24d28dd0aadfd8f87f2b740b20376]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ac24d28dd0aadfd8f87f2b740b20376, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51950/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ac24d28dd0aadfd8f87f2b740b20376
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+at pageObjects.EnterUserInfoPage.fillDetails(EnterUserInfoPage.java:82)
+at Tests.DownloadInvoiceTest.DownloadInvoice(DownloadInvoiceTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadInvoice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DownloadInvoiceTest@2609b277]" started-at="2024-10-12T16:42:46 ART" name="tearDown" finished-at="2024-10-12T16:42:46 ART" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.DownloadInvoiceTest -->
+      <class name="Tests.RegisterBeforeCheckoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:03 ART" name="launchApplication" finished-at="2024-10-12T16:44:07 ART" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RegisterBeforeCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:07 ART" name="RegisterBeforeCheckout" data-provider="getData" finished-at="2024-10-12T16:44:32 ART" duration-ms="24756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=New Zealand, firstname=Luciano, address=Avenida Siempre Viva, year=1999, address2=123, city=Springfield, mobile=482153957, lastname=Alonso, zipcode=30100, password=qatest123456789, month=7, name=Fabian, company=LuchoA, state=Springfield, day=9, email=qatest456@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:32 ART" name="tearDown" finished-at="2024-10-12T16:44:32 ART" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:32 ART" name="launchApplication" finished-at="2024-10-12T16:44:36 ART" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RegisterBeforeCheckout(java.util.HashMap)[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:36 ART" name="RegisterBeforeCheckout" data-provider="getData" finished-at="2024-10-12T16:44:49 ART" duration-ms="13612" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, firstname=Luciano, address=BuddyStreet, year=1999, address2=123, city=Houston, mobile=486215379, lastname=Alonso, zipcode=12345, password=qatest123456789, month=9, name=Luciano, company=Testing, state=Texas, day=4, email=qatest123@adinet.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63baa3dd6e21a952f75a09e3edd6d5c3, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52140/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63baa3dd6e21a952f75a09e3edd6d5c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#days"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63baa3dd6e21a952f75a09e3edd6d5c3, findElement {using=css selector, value=#days}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Luciano\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52140/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63baa3dd6e21a952f75a09e3edd6d5c3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:43)
+at pageObjects.EnterUserInfoPage.fillDetails(EnterUserInfoPage.java:82)
+at Tests.RegisterBeforeCheckoutTest.RegisterBeforeCheckout(RegisterBeforeCheckoutTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterBeforeCheckoutTest@1ae8bcbc]" started-at="2024-10-12T16:44:49 ART" name="tearDown" finished-at="2024-10-12T16:44:50 ART" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterBeforeCheckoutTest -->
+      <class name="Tests.SearchProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.SearchProductTest@5cdec700]" started-at="2024-10-12T16:51:01 ART" name="launchApplication" finished-at="2024-10-12T16:51:05 ART" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchProduct()[pri:0, instance:Tests.SearchProductTest@5cdec700]" started-at="2024-10-12T16:51:05 ART" name="SearchProduct" finished-at="2024-10-12T16:51:22 ART" duration-ms="16838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.SearchProductTest@5cdec700]" started-at="2024-10-12T16:51:22 ART" name="tearDown" finished-at="2024-10-12T16:51:23 ART" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.SearchProductTest -->
+    </test> <!-- Register -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+[
+{
+  "name": "Fabian",
+  "email": "qatest456@yahoo.com",
+  "password": "qatest123456789",
+  "day": "9",
+  "month": "7",
+  "year": "1999",
+  "firstname": "Luciano",
+  "lastname": "Alonso",
+  "company": "LuchoA",
+  "address": "Avenida Siempre Viva",
+  "address2": "123",
+  "country": "New Zealand",
+  "state": "Springfield",
+  "city": "Springfield",
+  "zipcode": "30100",
+  "mobile": "482153957"
+},
+{
+  "name": "Luciano",
+  "email": "qatest123@adinet.com",
+  "password": "qatest123456789",
+  "day": "4",
+  "month": "9",
+  "year": "1999",
+  "firstname": "Luciano",
+  "lastname": "Alonso",
+  "company": "Testing",
+  "address": "BuddyStreet",
+  "address2": "123",
+  "country": "United States",
+  "state": "Texas",
+  "city": "Houston",
+  "zipcode": "12345",
+  "mobile": "486215379"
+}
+]
